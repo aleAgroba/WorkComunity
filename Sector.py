@@ -1,0 +1,10 @@
+import requests
+
+r = requests.get("http://api.workmunity.com/1/search_offers?", params={"return":"json",
+"callback":"json_callback","cache":"on","lang":"es","locale":"es","echo":"test","results":"10",
+"keywords":"","country":"es","state":"43","town":"0","radio":"on","studies":"0","level":"0",
+"category":"0","subcategory":"0","sector":"10","salary":"0","contract":"0","workday":"0",
+"only_verified":"off","only_without_experience":"off"})
+
+if r.status_code == 200:
+    print r.text
