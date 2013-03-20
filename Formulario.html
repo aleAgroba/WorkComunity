@@ -1,12 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
 <title>Buscador de Empleos</title>
 
 </head>
 <body id="main_body" >
-  
+	
 
 	<div id="form_container">
 	
@@ -15,28 +15,108 @@
 					<div class="form_description">
 			<h2>Buscador de Empleos</h2>
 			
-		</div>						
+		</div>
+
+<form method="post">
+  <label> Palabras Clave: </label>
+  <input type="text" name="txt1" size="20"> <br>
+</form>						
 			<ul >
 			
 					<li id="li_1" >
 		<label class="description" for="element_1">Provincia </label>
 		<div>
 		<select class="element select medium" id="element_1" name="element_1"> 
-			<option value="" selected="selected"></option>
-<option value="1" >Alava</option>
+		<option value="" selected="selected"></option>
+
+<option value="0" >Cualquiera</option>
+<option value="1" >Álava</option>
 <option value="2" >Albacete</option>
 <option value="3" >Alicante</option>
+<option value="4" >Almería</option>
+<option value="5" >Asturias</option>
+<option value="6" >Avila</option>
+<option value="7" >Badajoz</option>
+<option value="8" >Barcelona</option>
+<option value="9" >Burgos</option>
+<option value="10" >Cáceres</option>
+<option value="11" >Cádiz</option>
+<option value="12" >Cantabria</option>
+<option value="13" >Castellón</option>
+<option value="14" >Ceuta</option>
+<option value="15" >Ciudad Real</option>
+<option value="16" >Córdoba</option>
+<option value="17" >Cuenca</option>
+<option value="18" >Gerona</option>
+<option value="19" >Granada</option>
+<option value="20" >Guadalajara</option>
+<option value="21" >Guipúzcua</option>
+<option value="22" >Huelva</option>
+<option value="23" >Huesca</option>
+<option value="24" >Islas Baleares</option>
+<option value="25" >Jaén</option>
+<option value="26" >La Coruña</option>
+<option value="27" >La Rioja</option>
+<option value="28" >Las Palmas</option>
+<option value="29" >León</option>
+<option value="30" >Lérida</option>
+<option value="31" >Lugo</option>
+<option value="32" >Madrid</option>
+<option value="33" >Málaga</option>
+<option value="34" >Melilla</option>
+<option value="35" >Murcia</option>
+<option value="36" >Navarra</option>
+<option value="37" >Orense</option>
+<option value="38" >Palencia</option>
+<option value="39" >Pontevedra</option>
+<option value="40" >S.C. Tenerife</option>
+<option value="41" >Salamanca</option>
+<option value="42" >Segovia</option>
+<option value="43" >Sevilla</option>
+<option value="44" >Soria</option>
+<option value="45" >Tarragona</option>
+<option value="46" >Teruel</option>
+<option value="47" >Toledo</option>
+<option value="48" >Valencia</option>
+<option value="49" >Valladolid</option>
+<option value="50" >Vizcaya</option>
+<option value="51" >Zamora</option>
+<option value="52" >Zaragoza</option>
 
 		</select>
 		</div> 
 		</li>		<li id="li_3" >
-		<label class="description" for="element_3">Sector </label>
+		<label class="description" for="element_3">Categoria </label>
 		<div>
 		<select class="element select medium" id="element_3" name="element_3"> 
 			<option value="" selected="selected"></option>
-<option value="1" >Informatica</option>
-<option value="2" >Hosteleria</option>
-<option value="3" >Comercial</option>
+<option value="1" >Cualquiera</option>
+<option value="2" >Administración de empresas</option>
+<option value="3" >Administración pública</option>
+<option value="4" >Atención a clientes</option>
+<option value="5" >Calidad, producción e I+D</option>
+<option value="6" >Comercial y ventas</option>
+<option value="7" >Compras, logística y almacén</option>
+<option value="8" >Diseño y artes gráficas</option>
+<option value="9" >Educación y formación</option>
+<option value="11" >Finzanzas y banca</option>
+<option value="12" >Informática y telecomunicaciones</option>
+<option value="13" >Ingenieros y técnicos</option>
+<option value="14" >Inmobiliaria y construcción</option>
+<option value="15" >Legal</option>
+<option value="16" >Marketing y comunicación</option>
+<option value="17" >Profesiones, artes y oficios</option>
+<option value="18" >Recursos humanos</option>
+<option value="19" >Sanidad y salud</option>
+<option value="20" >Turismo y restauración</option>
+<option value="21" >Otras categorías</option>
+
+
+
+
+
+
+
 
 		</select>
 		</div> 
@@ -45,13 +125,75 @@
 		<div>
 		<select class="element select medium" id="element_2" name="element_2"> 
 			<option value="" selected="selected"></option>
-<option value="1" >Ciclo Superior</option>
-<option value="2" >Doctorado</option>
-<option value="3" >Fp</option>
+<option value="1" >Cualquiera</option>
+<option value="2" >No se requieren estudios</option>
+<option value="3" >Curso / Conferencia</option>
+<option value="4" >EGB / ESO</option>
+<option value="5" >Bachillerato / FP</option>
+<option value="6" >Ciclo Superior</option>
+<option value="7" >Diplomatura / Ing. Técnica</option>
+<option value="8" >Grado / Licenciatura</option>
+<option value="9" >Master / Ingeniería / Arq.</option>
+<option value="10" >Doctorado</option>
+
 
 		</select>
 		</div> 
 		</li>
+
+
+
+</li>		<li id="li_4" >
+		<label class="description" for="element_4"> Sector de la oferta</label>
+		<div>
+		<select class="element select medium" id="element_4" name="element_4"> 
+			<option value="" selected="selected"></option>
+<option value="1" >Cualquiera</option>
+<option value="2" >Actividades informaticas</option>
+<option value="3" >Actividades inmobiliarias</option>
+<option value="4" >Actividades recreativas, cultulares y deportivas</option>
+<option value="5" >Administración pública y defensa</option>
+<option value="6" >Agricultura ,ganaderia y pesca</option>
+<option value="7" >Alimentación y productos afines</option>
+<option value="8" >Automoción</option>
+<option value="9" >Comercio (al por mayor y al por menor)</option>
+<option value="11" >Cosntrucción</option>
+<option value="12" >Correos y telecomunicaciones</option>
+<option value="13" >Edición, artes gráficas y reproducciones de soportes grabados</option>
+<option value="14" >Educación</option>
+<option value="15" >Electrónica y electricidad</option>
+<option value="16" >Energía, minería y medio ambiente</option>
+<option value="17" >Fuerza de ventas</option>
+<option value="18" >Industria del transporte</option>
+<option value="19" >Industria ligera (mobiliario)</option>
+<option value="20" >Industria madera/papel</option>
+<option value="21" >Industria pesada(maquinaria)</option>
+<option value="22" >Industria química y farmacéutica</option>
+<option value="23" >Industria  textil (textil/moda/hogar)</option>
+<option value="24" >Investiagación y Desarrollo</option>
+<option value="25" >ONG y servicio sociales</option>
+<option value="26" >Sanidad</option>
+<option value="27" >Servicios(hostelería, viajes, restauración)</option>
+<option value="28" >Servicios de consultoría, asesoría y auditoría</option>
+<option value="29" >Servicios de publicidad</option>
+<option value="30" >Servicios de RRHH</option>
+<option value="31" >Servicios de TI</option>
+<option value="32" >Servicios financieros</option>
+<option value="33" >Servicios personales</option>
+<option value="34" >Telemarketing</option>
+<option value="35" >Otras actividades</option>
+
+
+
+
+
+
+
+
+
+		</select>
+		</div> 
+
 			
 					<li class="buttons">
 			    
