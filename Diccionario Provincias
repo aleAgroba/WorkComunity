@@ -1,0 +1,10 @@
+provincias = {"Cualquiera":0,"Álava":1,"Albacete":2,"Alicante":3,"Almería":4,"Asturias":5,"Avila":6,"Badajoz":7,"Baleares":8,"Barcelona":9,
+        "Burgos":10,"Cáceres":11,"Cádiz":12,"Cantabria":13,"Castellón":14,"Ceuta":15,"Ciudad Real":16,"Córdoba":17,"Coruña":18,
+	      "Cuenca":19,"Girona":20,"Granada":21,"Guadalajara":22,"Guipúzcua":23,"Huelva":24,"Huesca":25,"Jaén":26,"León":27,"Lleida":28,
+	      "Lugo":29,"Madrid":30,"Málaga":31,"Melilla":32,"Murcia":33,"Navarra":34,"Ourense":35,"Palencia":36,"Palmas (Las)":37,
+	      "Pontevedra":38,"Rioja (La)":39,"Salamanca":40,"S.C Tenerife":41,"Segovia":42,"Sevilla":43,"Soria":44,"Tarragona":45,
+	      "Teruel":46,"Toledo":47,"Valencia":48,"Valladolid":49,"Vizcaya":50,"Zamora":51,"Zaragoza":52}
+
+
+
+
