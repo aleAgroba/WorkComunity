@@ -1,0 +1,5 @@
+categoria = {"Cualquiera":0,"Administración de empresas":1,"Administración Pública":2,"Atención al cliente":3,
+"Calidad, producción e I+D":4,"Comercial y ventas":5,"Compras, logística y almacén":6,"Diseño y artes gráficas":7,
+"Educación y formación":8,"Finanzas y banca":9,"Informática y telecomunicaciones":10,"Ingenieros y técnicos":11,
+"Inmobiliaria y construcción":12,"Legal":13,"Marketing y comunicación":14,"Profesiones, artes y oficios":15,
+"Recursos humanos":16,"Sanidad y salud":17,"Turismo y restauración":18}
