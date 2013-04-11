@@ -1,0 +1,5 @@
+estudios = {"Cualquiera":0,"No se requieren estudios":1,"Curso / Conferencia":2,"EGB / ESO":3,"Artes / Deportes":4,
+"Bachillerato / FP I":5,"Ciclo Superior":6,"Diplomatura / Ing. Técnica":7,"Grado / Licenciatura":8,
+"Máster / Ingeniería / Arq":9,"Doctorado":10}
+
+
